@@ -9,6 +9,11 @@ Add your stock symbol with their exchange and buy prices and the quantity you bo
 ![image](https://github.com/imadchougle/Live-Stock-Portfolio-Program/assets/54437743/08f695f7-4aea-4a54-8193-0cad0478c37f)
 
 
+## Your Personal portfolio realtime analytics
+
+![image](https://github.com/imadchougle/Live-Stock-Portfolio-Program/assets/54437743/6a2ce189-5cff-4db2-b7b6-6405c8b6def3)
+
+
 ## Features
 
 - Fetch Historical Stock Data: Retrieves daily stock prices from TradingView using the tvDatafeed library.
