@@ -2,6 +2,12 @@
 
 This Python program tracks the daily and overall performance of a stock portfolio. Using the tvDatafeed library, it fetches historical stock data from TradingView and calculates key metrics such as daily profit and loss (P&L), total P&L, and current investment value. The results are displayed in a neatly formatted table, making it easy for users to understand their portfolio's performance at a glance.
 
+## Personal Portfolio
+
+Add your stock symbol with their exchange and buy prices and the quantity you bought in the csv
+![image](https://github.com/imadchougle/Live-Stock-Portfolio-Program/assets/54437743/08f695f7-4aea-4a54-8193-0cad0478c37f)
+
+
 ## Features
 
 - Fetch Historical Stock Data: Retrieves daily stock prices from TradingView using the tvDatafeed library.
