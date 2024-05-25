@@ -5,6 +5,7 @@ This Python program tracks the daily and overall performance of a stock portfoli
 ## Personal Portfolio
 
 Add your stock symbol with their exchange and buy prices and the quantity you bought in the csv
+
 ![image](https://github.com/imadchougle/Live-Stock-Portfolio-Program/assets/54437743/08f695f7-4aea-4a54-8193-0cad0478c37f)
 
 
