@@ -23,3 +23,19 @@ Add your stock symbol with their exchange and buy prices and the quantity you bo
 - Calculate Total P&L: Computes the overall profit or loss for each stock from the purchase date to the specified date.
 - Investment Analysis: Summarizes the total investment, daily P&L, and overall P&L.
 - Tabular Output: Displays the results in a tabulated format for easy readability.
+
+## Modules & Package installation
+
+install all the dependencies before running the program
+
+```
+pip install tabulate
+```
+
+```
+pip install --upgrade --no-cache-dir git+https://github.com/rongardF/tvdatafeed.git
+```
+
+```
+pip install pandas
+```
