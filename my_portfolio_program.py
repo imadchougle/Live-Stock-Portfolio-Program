@@ -17,31 +17,26 @@ symbols = []
 for i in symbol_list:
     symbols.append(i)
 
-
 exchange_list = df.iloc[:, 1]
 exchanges = []
 for i in exchange_list:
     exchanges.append(i)
-
 
 buy_prices_list = df.iloc[:, 2]
 buy_prices = []
 for i in buy_prices_list:
     buy_prices.append(i)
 
-
 quantities_list = df.iloc[:, 3]
 quantities = []
 for i in quantities_list:
     quantities.append(i)
-
 
 total_daily_pl = 0
 overall_pl = 0
 total_invested = 0
 
 table_data = []
-
 
 for i, symbol in enumerate(symbols):
     while True:
