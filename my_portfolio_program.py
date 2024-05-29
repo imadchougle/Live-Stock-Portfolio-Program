@@ -81,6 +81,7 @@ for i, symbol in enumerate(symbols):
 
 headers = ["Symbol", "Current Price", "Change Price", "Change %", "Daily P&L", "Total P&L", "Total Investment", "Current value"]
 
+
 print(tabulate(table_data, headers=headers, tablefmt="grid"))
 print('Total daily P&L for all symbols = ', round((total_daily_pl), 2))
 print("Total Overall P&L = ", round((overall_pl), 2))
