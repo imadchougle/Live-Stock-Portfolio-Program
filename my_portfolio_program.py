@@ -40,6 +40,7 @@ total_invested = 0
 
 table_data = []
 
+
 for i, symbol in enumerate(symbols):
     while True:
         try:
