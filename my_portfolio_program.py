@@ -4,7 +4,6 @@ import time
 import pandas as pd
 from datetime import date
 
-
 tv = TvDatafeed()
 
 #today_date = date.today()   # bydefault its today's date
