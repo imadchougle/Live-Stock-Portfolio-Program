@@ -6,10 +6,8 @@ from datetime import date
 
 tv = TvDatafeed()
 
-
 #today_date = date.today()   # bydefault its today's date
 today_date = '2024-05-22'  # this is custom date, uncomment this to use and comment above
-
 
 data = pd.read_csv('portfolio_data.csv')
 df = pd.DataFrame(data)
@@ -39,7 +37,6 @@ overall_pl = 0
 total_invested = 0
 
 table_data = []
-
 
 for i, symbol in enumerate(symbols):
     while True:
@@ -83,7 +80,6 @@ for i, symbol in enumerate(symbols):
             time.sleep(2)
 
 headers = ["Symbol", "Current Price", "Change Price", "Change %", "Daily P&L", "Total P&L", "Total Investment", "Current value"]
-
 
 print(tabulate(table_data, headers=headers, tablefmt="grid"))
 print('Total daily P&L for all symbols = ', round((total_daily_pl), 2))
