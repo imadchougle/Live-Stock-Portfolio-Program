@@ -42,6 +42,7 @@ total_invested = 0
 
 table_data = []
 
+
 for i, symbol in enumerate(symbols):
     while True:
         try:
@@ -84,6 +85,7 @@ for i, symbol in enumerate(symbols):
             time.sleep(2)
 
 headers = ["Symbol", "Current Price", "Change Price", "Change %", "Daily P&L", "Total P&L", "Total Investment", "Current value"]
+
 
 print(tabulate(table_data, headers=headers, tablefmt="grid"))
 print('Total daily P&L for all symbols = ', round((total_daily_pl), 2))
