@@ -4,13 +4,17 @@ import time
 import pandas as pd
 from datetime import date
 
+
 tv = TvDatafeed()
+
 
 #today_date = date.today()   # bydefault its today's date
 today_date = '2024-05-22'  # this is custom date, uncomment this to use and comment above
 
+
 data = pd.read_csv('portfolio_data.csv')
 df = pd.DataFrame(data)
+
 
 symbol_list = df.iloc[:, 0]
 symbols = []
